@@ -13,7 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "@geist-ui/core": "^2.3.8",
-    "alchemy-sdk": "^2.0.3",
     "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
