@@ -1,7 +1,7 @@
 import React from "react";
 import { Tweet } from 'react-twitter-widgets'
 
-import { Page, Text, Grid } from '@geist-ui/core'
+import { Page, Text, Grid, Card } from '@geist-ui/core'
 
 
 class Mferfied extends React.Component {
@@ -13,7 +13,9 @@ class Mferfied extends React.Component {
             <Text h1>mferfy best of the best</Text>
           </Grid>
           <Grid xs={24} justify="center">
-            <Tweet tweetId='1564644587808985089'/>
+            <Card shadow width="80%">
+              <Tweet tweetId='1564644587808985089' />
+            </Card>
           </Grid>
           <Grid xs={24} sm={24} justify="center">
             <p> 1 mfer = 1 mfer </p>
