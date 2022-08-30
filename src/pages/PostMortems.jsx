@@ -1,6 +1,6 @@
 import React from "react";
-
-import { Page, Text } from '@geist-ui/core'
+import { Link } from "react-router-dom";
+import { Page, Text, Grid, Button } from '@geist-ui/core'
 
 
 class PostMortems extends React.Component {
@@ -17,7 +17,6 @@ class PostMortems extends React.Component {
             </Button>
           </Grid>
           <p> 1 mfer = 1 mfer </p>
-          <ul></ul>
         </Grid.Container>
       </Page>
     );
