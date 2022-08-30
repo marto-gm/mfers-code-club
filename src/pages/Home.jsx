@@ -7,15 +7,20 @@ class Login extends React.Component {
     return (
       <Page>
         <Grid.Container justify="center" gap={3} mt="100px">
-          <Grid xs={20} sm={20} justify="center">
+          <Grid xs={24} sm={20} justify="center">
             <Text h1>mfers code club</Text>
           </Grid>
-          <Grid xs={20} sm={20} justify="center">
+          <Grid xs={24} sm={24} justify="center">
             <Button>
               <Link to="post-mortems">post-mortems meebe</Link>
             </Button>
           </Grid>
-          <Grid xs={20} sm={20} mt="100px" justify="center">
+          <Grid xs={24} sm={24} justify="center">
+            <Button>
+              <Link to="mferfied">mferfy hall of fame</Link>
+            </Button>
+          </Grid>
+          <Grid xs={24} sm={24} mt="100px" justify="center">
             <Text small>coded by the mfers code club themselves, mfer</Text>
 
           </Grid>
