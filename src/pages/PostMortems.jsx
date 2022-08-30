@@ -8,6 +8,7 @@ class PostMortems extends React.Component {
     return (
       <Page>
         <Text h1>lessons learned by mfers</Text>
+        <p> 1 mfer = 1 mfer </p>
         <ul></ul>
       </Page>
     );
