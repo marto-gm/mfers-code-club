@@ -13,7 +13,7 @@ class Mferfied extends React.Component {
             <Text h1>mferfy best of the best</Text>
           </Grid>
           <Grid xs={24} justify="center">
-            <Card shadow width="80%">
+            <Card shadow width="550px">
               <Tweet tweetId='1564644587808985089' />
             </Card>
           </Grid>
